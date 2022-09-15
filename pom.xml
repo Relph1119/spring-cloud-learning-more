@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.teapot</groupId>
+    <artifactId>spring-cloud-learning-more</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>spring-cloud-provider-consumer</module>
+        <module>spring-cloud-provider-service</module>
+        <module>spring-boot-eureka-server</module>
+        <module>spring-cloud-eureka1-server</module>
+        <module>spring-cloud-product-service</module>
+        <module>spring-cloud-user-service</module>
+        <module>spring-cloud-eureka2-server-replica</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-gateway</module>
+    </modules>
+</project>
